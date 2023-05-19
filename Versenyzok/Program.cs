@@ -1,13 +1,13 @@
-﻿StreamReader sr = new StreamReader("");
+﻿StreamReader sr = new StreamReader("pilotak.csv");
 
 
-List<int> magassagok = new List<int>();
+List<string> neve = new List<string>();
+List<string> szuletesi_datum = new List<string>();
+List<string> nemzetisege = new List<string>();
+List<int> rajtszama = new List<int>();
 
 
 while (!sr.EndOfStream)
 {
-    if (sr.ReadLine() != "")
-    {
-        
-    }
+    string nev = sr.ReadLine();
 }
